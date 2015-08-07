@@ -1,3 +1,6 @@
+--Y esto es una modificación al fichero para GIT
+
+
 --Duración media y consultas por bases de datos
 select Servidor, Fecha, avg(isnull(Duration,0)) as Duracion, count(*) as Cuantas
 from dbo.SSAS_Monitor
